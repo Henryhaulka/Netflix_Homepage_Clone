@@ -1,0 +1,641 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.contain{
+    height: 100vh;
+    background-image: url('https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-blend-mode: darken;
+    
+    
+
+}
+.me{
+    background-image: linear-gradient(to bottom, black,transparent, black);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.you>img{
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+   
+}
+.you>button{
+    background-color: rgb(243, 9, 9);
+    color: white;
+    
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    opacity: 1;
+
+}
+.you{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+   
+}
+.you a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.you a:hover{
+    color: white;
+    text-decoration: none;
+}
+.bank{
+width: 80%;
+margin: auto;
+margin-top: 5%;
+color: white;
+text-align: center;
+}
+.bank>h1{
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    margin: auto;
+    opacity: 1;
+}
+#first{
+    font-size: xx-large;
+    width: 55%;
+    margin: auto;
+    margin-top: 10px;
+   
+}
+#second{
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+   
+}
+.small{
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: center;
+    
+}
+.small>input{
+    padding: 15px;
+    width: 450px;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+.small>button{
+    width: 250px;
+    border: none;
+    background-color: rgb(243, 9, 9);
+    padding: 0;
+}
+.small a{
+    font-size: xx-large;
+    padding: 0;
+    
+    color: white;
+}
+.small a:hover{
+
+    text-decoration: none;
+    color: white;
+}
+.section1{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.do>img{
+    width: 80%;
+    margin: auto;
+}
+.rat{
+    width: 80%;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+}
+.section2{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    
+}
+.image1 {
+     background-size: cover;
+}
+.image2{
+    position: absolute;
+    top: 80%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    background-color: black;
+    border: 2px solid grey;
+    width: 22rem;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.image1>img{
+    width: 600px;
+}
+.nylon{
+    width: 70%; margin: auto;padding-top: 20%;
+}
+#book{
+    position: relative;
+}
+.chi>img{
+    width: 60px;padding: 8px;height: 90px;
+}
+.need{
+    width: 200px;margin-top: 17px;
+}
+.case{
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    background-color: black;
+    color: white;
+}
+.case h1{
+font-weight: bold;
+font-size: 3rem;
+}
+.case p{
+    font-size: 1.5rem;
+}
+.sweet{
+    width: 80%;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+
+
+}
+.case img{
+    margin-top: 2rem;
+}
+.section3{
+    background-color: black;
+
+}
+.section4{
+    width: 60%;margin: auto;
+    color: white;
+    
+}
+.section5{
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    
+}
+details>summary{
+    
+    list-style: none;
+}
+details>summary::-webkit-details-marker {
+    display: none;
+
+  }
+  summary{
+      border: none;
+      outline: none;
+  }
+.section4 h1{
+font-size: 3rem;
+padding:4rem ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section5 p{
+    font-size: 2rem;
+}
+.section5 i{
+    margin-left: auto; font-size: 2rem; margin-top: 0.5rem;padding-right: 0.5rem;
+}
+.biro{
+    padding: 2rem;font-size: 1.5rem;
+}
+.comb{
+    display: flex;padding-left: 2rem;padding-right: 2rem; border-bottom: 1px solid black;padding-top: 1rem;
+}
+.water{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
+#small{
+    padding-bottom: 5rem;
+}
+.quit{
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: center;
+    
+    
+    
+}
+.quit>input{
+    padding: 15px;
+    width: 60%;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.quit>button{
+    width: 35%;
+    border: none;
+    background-color: rgb(243, 9, 9);
+    padding: 5px;
+    border-radius: 2px;
+}
+.quit a{
+    font-size: xx-large;
+    padding: 0;
+    
+    color: white;
+}
+.quit a:hover{
+
+    text-decoration: none;
+    color: white;
+}
+.nis{
+    display:grid ;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding-top: 4rem;
+   
+    
+}
+.nis a {
+    color: white;
+    opacity: 0.4;
+    font-size: small;
+}
+.nis a:hover {
+    color: white;
+
+}
+.tan{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width:450px) {
+    .nis{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .comb{
+        display: flex;padding-left: 0.7rem;padding-right: 0.7rem;
+    
+         border-bottom: 1px solid black;padding-top: 1rem;
+    }
+   
+    .biro{
+        padding: 1rem;font-size: 1rem;
+    }
+    .section4{
+        width: 90%;
+        
+    }
+    .section5 i{
+        margin-left: auto; font-size: 1rem;margin-top: 0.3rem; ;
+    }
+    
+    .section5 p{
+        font-size: 1rem;
+    }
+    .section4 h1{
+        font-size: 1rem;
+        padding:1.5rem ;
+        
+        }
+    
+    .case h1{
+        
+        font-size: 1.5rem;
+        }
+        .case p{
+            font-size: 1rem;
+        }
+    .case{
+        grid-template-columns:1fr;
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .case img{
+        width: 95%;
+        margin: auto;
+    }
+    
+
+    
+    
+    .need{
+        width: 50%;margin-top: 3px;
+        height: 100px;
+        padding-top: 7px;
+    }
+    .image1>img{
+        width: 95%;
+        margin: auto;
+    }
+    
+
+    .chi{
+        width: 20%;
+    }
+    .chi img {
+        width: 100%;
+        padding: 2px;
+        height: 100%;
+    }
+
+    
+    .image2{
+        position: absolute;
+        top: 80%;
+        bottom: 50%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        background-color: black;
+        border: 2px solid grey;
+        width: 80%;
+        height: 80px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+
+    
+    .you>img{
+        width: 100px;
+        height: 50px;
+        margin-left: 0;
+       
+    }
+    .you>button{
+        color: white;
+        width: 70px;
+        height: 30px;
+    margin-top: 10px;
+        border: none;
+        font-size: small;
+        border-radius: 5px;
+        
+    
+    }
+    .bank{
+        width: 100%;
+        margin-top: 10%;
+        color: white;
+        margin-top: 40px;
+        
+        }
+        .bank h1 {
+font-size:x-large;
+width: 90%;
+text-align: center;
+
+
+        }
+        #first{
+            font-size: large;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+           
+        }
+        #second{
+            width: 100%;
+            padding: 5px;
+           font-size: large;
+        }
+        .small{
+            display: block;
+            width: 100%;
+            padding-top: 10px;
+            text-align: center;
+            
+        }
+        .small>input{
+            padding: 15px;
+            width: 90%;
+            font-size: large;
+            outline: none;
+            border: none;
+            margin: auto;
+            display: block;
+        }
+        .small>button{
+            width: 60%;
+            border: none;
+            padding: 0;
+            margin-top: 20px;
+            border-radius: 5px;
+        
+            
+        }
+        .small a{
+            font-size: x-large;
+            padding: 10px;
+            color: white;
+        }
+        .section1{
+            grid-template-columns:  1fr;
+            grid-template-rows: auto;
+        }
+        .rat{
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .do >img{
+            width: 100%;
+            margin: auto;
+            justify-self: center;
+        }
+        .section2{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+        }
+        .nylon{
+            padding-top: 12px;
+            margin: auto;
+        width: 93%;
+        text-align: center;
+        }
+        .nylon h1 {
+            font-size: x-large;
+        }
+        .nylon h4{
+            font-size: large;
+        }
+        #book {
+            width: 100%;
+        }
+        .quit{
+            display: block;
+            width: 100%;
+            padding-top: 10px;
+            text-align: center;
+            
+        }
+        .quit>input{
+            padding: 15px;
+            width: 100%;
+            font-size: large;
+            outline: none;
+            border: none;
+            margin: auto;
+            border-radius: 3px;
+            
+
+        }
+        .quit>button{
+            width: 70%;
+            border: none;
+            padding: 0;
+            margin-top: 20px;
+            border-radius: 5px;
+        
+            
+        }
+        .quit a{
+            font-size: x-large;
+            padding: 10px;
+            color: white;
+        }
+        
+        
+}
+@media screen and (max-width:800px)and (min-width:480px){
+    .section4 h1{
+        font-size: 2rem;
+    }
+    .section4{
+        width: 80%;
+        
+    }
+    .case{
+        grid-template-columns: 1fr 1fr;
+    }
+    .case img{
+        width: 90%;
+    }
+    .case {
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+        .bank>h1{
+            font-weight: bold;
+            color: white;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        #first{
+            font-size: xx-large;
+            width: 80%;
+            margin: auto;
+            margin-top: 10px;
+           
+        }
+        .small>input{
+            padding: 15px;
+            width: 50%;
+            
+        }
+        .small>button{
+            width: 20%;
+            
+        }
+        .small a{
+            font-size:large;
+        }
+        .small{
+            padding-top: 20px;
+        }
+        .section2{
+
+        padding-top: 2rem;
+            grid-template-columns: 1fr 1fr;
+            padding-bottom: 2rem;
+            
+        }
+        .image1>img{
+            width: 90%;
+        }
+        .image2{
+            width: 18rem;
+        }
+        .need{
+            width: 10rem;margin-top: 17px;
+        }
+        .quit>input{
+            padding: 15px;
+            width: 70%;
+            
+        }
+        .quit>button{
+            width: 30%;
+            
+        }
+        .quit a{
+            font-size:large;
+        }
+        
+}
