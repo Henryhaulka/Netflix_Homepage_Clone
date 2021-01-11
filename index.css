@@ -325,7 +325,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     grid-gap: 10px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:599px) {
     .nis{
         grid-template-columns: repeat(2, 1fr);
     } 
@@ -437,7 +437,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         width: 100%;
         margin-top: 10%;
         color: white;
-        margin-top: 40px;
+    margin-top: 8rem;
         
         }
         .bank h1 {
@@ -561,7 +561,7 @@ text-align: center;
         
         
 }
-@media screen and (max-width:800px)and (min-width:480px){
+@media screen and (max-width:800px)and (min-width:600px){
     .section4 h1{
         font-size: 2rem;
     }
@@ -583,7 +583,7 @@ text-align: center;
         .bank>h1{
             font-weight: bold;
             color: white;
-            width: 90%;
+            width: 100%;
             margin: auto;
             text-align: center;
         }
@@ -600,7 +600,7 @@ text-align: center;
             
         }
         .small>button{
-            width: 20%;
+            width: 30%;
             
         }
         .small a{
@@ -620,22 +620,26 @@ text-align: center;
             width: 90%;
         }
         .image2{
-            width: 18rem;
+            width: 15rem;
+            top: 70%;
         }
         .need{
             width: 10rem;margin-top: 17px;
         }
         .quit>input{
-            padding: 15px;
-            width: 70%;
+            padding: 10px;
+            width: 65%;
             
         }
         .quit>button{
-            width: 30%;
+            width: 35%;
             
         }
         .quit a{
             font-size:large;
+        }
+        .nylon{
+            padding-top: 8%;
         }
         
 }
