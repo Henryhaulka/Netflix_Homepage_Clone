@@ -1,6 +1,6 @@
 # NETFLIX HOME PAGE CLONE
 
-![screenshot](img/netflix_image.png)
+![screenshot](/img/netflix_image.png)
 
 
 This page is a clone of newyork times article. In this project we applied float,
