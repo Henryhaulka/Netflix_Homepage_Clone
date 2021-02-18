@@ -1,4 +1,4 @@
-# Newyork Times Article Clone
+# NETFLIX HOME PAGE CLONE
 
 ![screenshot](img/netflix_image.png)
 
