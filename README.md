@@ -2,9 +2,8 @@
 
 ![screenshot](/img/netflix_image.png)
 
-
-This page is a clone of newyork times article. In this project we applied float,
- flexbox, grid and position.
+This page is a clone of Netflix Home page. In this project we applied float,
+flexbox, grid and position and media queries for responsiveness.
 
 ## Built With
 
@@ -15,7 +14,6 @@ This page is a clone of newyork times article. In this project we applied float,
 
 [Live Demo Link](https://henryhaulka.github.io/Netflix_Homepage/)
 
-
 ## Getting Started
 
 **To visit the page go to the live demo link**
@@ -23,8 +21,7 @@ This page is a clone of newyork times article. In this project we applied float,
 ### Pre-requisites
 
 1. An internet browser
-2. A computer
-
+2. A Computer or A Tablet or A Mobile phone
 
 ## Authors
 
@@ -46,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thanks to newyork times for inspiring us.
+Thanks to Netflix for inspiring me.
 
 ## 📝 License
 
