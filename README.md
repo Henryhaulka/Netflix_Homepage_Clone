@@ -1,6 +1,6 @@
 # NETFLIX HOME PAGE CLONE
 
-![screenshot](/img/netflix_image.png)
+![screenshot](img/netflix_image.png)
 
 This page is a clone of Netflix Home page. In this project we applied float,
 flexbox, grid and position and media queries for responsiveness.
