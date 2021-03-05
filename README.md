@@ -12,7 +12,7 @@ flexbox, grid and position and media queries for responsiveness.
 
 ## Live Demo
 
-[Live Demo Link](https://henryhaulka.github.io/Netflix_Homepage/)
+[Live Demo Link](https://henryhaulka.github.io/Netflix_Homepage_Clone/)
 
 ## Getting Started
 
